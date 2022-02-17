@@ -2,7 +2,7 @@ name: deploy frontend application
 on: 
   push:
     branches:
-      - main
+      - test
 
 jobs:
   deploy-app:
